@@ -9,7 +9,7 @@ from langchain import PromptTemplate, LLMChain
 from langchain.chains import APIChain
 from langchain.chains.api import open_meteo_docs
 
-llm = OpenAI(openai_api_key="API KEY") ## Replace me
+llm = OpenAI(openai_api_key="sk-API-KEY")
 
 # template = """Question: {question}
 
