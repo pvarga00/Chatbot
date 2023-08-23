@@ -34,7 +34,7 @@ docs_transformed[0].page_content[0:500]
 
 llm = HuggingFaceHub(
     repo_id=repo_id, model_kwargs={"temperature": 0.5, "max_length": 64},
-    huggingfacehub_api_token="API_KEY"
+    huggingfacehub_api_token="API_KEY"  ## Replace me
 )
 llm_chain = LLMChain(prompt=prompt, llm=llm)
 
